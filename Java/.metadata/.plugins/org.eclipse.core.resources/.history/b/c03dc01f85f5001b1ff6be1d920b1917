@@ -1,0 +1,9 @@
+package Package0805;
+
+public class Example01_for {
+	public static void main(String[] args) {
+		for (int i = 10; i < 100000000; i++) {
+			System.out.println(i);
+		}
+	}
+}

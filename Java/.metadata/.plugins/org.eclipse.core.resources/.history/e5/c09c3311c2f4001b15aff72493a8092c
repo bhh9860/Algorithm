@@ -1,0 +1,16 @@
+package Package0804;
+
+import java.util.Scanner;
+
+public class File01_For {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		int n = 10;
+		
+		while (n <= 20) {
+			System.out.println(n);
+			n++;
+		}
+	}
+}

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Exmaple04_Sum {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		int n = 0;
+		int sum = 0;
+		
+		while (n >= 0) {
+			sum += n;
+			n = input.nextInt();
+		}
+		
+		System.out.println(sum);
+		
+		input.close();
+		
+		
+		// 정수를 입력을 받아서 각 자리의 숫자들의 합을 출력
+	}
+}

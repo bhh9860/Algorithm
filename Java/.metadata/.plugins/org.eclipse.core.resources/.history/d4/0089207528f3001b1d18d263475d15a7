@@ -1,0 +1,11 @@
+package Package0802;
+
+public class File01_Control {
+	public static void main(String[] args) {
+		
+		int a = 7;
+		if (a>10) System.out.println("a가 10보다 큽니다.");
+		
+		
+	}
+}

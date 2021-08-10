@@ -1,0 +1,7 @@
+package Package0804;
+
+public class Example03_minus {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+	}
+}

@@ -1,0 +1,17 @@
+package Package0806;
+
+import java.util.Scanner;
+
+public class Example02_a {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+	
+		int n = input.nextInt();
+		
+		for (int i = 1; i <= n; i++) {
+			for (int j = 10; j >= 2; j-=2)
+			System.out.printf("j", i, j);
+			System.out.println();
+		}
+	}
+}

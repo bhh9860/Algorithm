@@ -1,0 +1,28 @@
+package Package0805;
+
+import java.util.Scanner;
+
+public class Homework {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		int num = input.nextInt();
+		int count = 1;
+		int sum = 0;
+		
+		if (num < 10) {
+			System.out.println(num);
+		} else if (num % 10 == 0) {
+			System.out.println("1");
+		} else {
+			while (num > count) {
+				count *= 10;
+				sum += num % count / (count/10);
+			}
+		System.out.println(sum);
+		}
+		
+		input.close();
+		
+	}
+}
