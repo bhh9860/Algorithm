@@ -1,1 +1,1 @@
-a
+print(int(input())-543)
