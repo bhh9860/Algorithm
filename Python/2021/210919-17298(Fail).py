@@ -27,4 +27,4 @@ for i in range(len(lists) - 1):
 				ans.append(-1)	
 
 ans.append(-1)
-print(ans)
+print(ans);
