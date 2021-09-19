@@ -1,32 +1,30 @@
+import sys
+input = sys.stdin.
+
 n = int(input())
+
 lists = list(map(int, input().split()))
 ans = []
-temp = -1
+index = len(lists)-1
+count = 0
 
-for i in range(len(lists)-1):
-	if temp == -1:
-		pass
-		
-	else:
-		if temp == lists[i+1]:
-			pass
-		else:
-		if tempi >= lists[i]:
-			ans.append(temp)
-			continue
-		
-	
-	count = 0
-	for j in range(i+1, len(lists), 1):
+for i in range(len(lists) - 1):
+	count += 1
+	if index == i:
+		index = len(lists) - 1
+	for j in range(i+1, index+1, 1):
 		if lists[i] < lists[j]:
-			temp = lists[j]
-			tempi = lists[i]
-			ans.append(temp)
+			index = j
+			ans.append(lists[j])
 			break
 		
-		
-	if temp == -1:
-		ans.append(-1)		
-			
-print(ans.append(-1))
+	
+		if j+1 == len(lists):
+			if len(ans) > 0:
+				if count > i:
+					ans.append(-1)
+			else:
+				ans.append(-1)	
+
+ans.append(-1)
 print(ans)
