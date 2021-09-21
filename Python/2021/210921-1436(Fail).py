@@ -10,4 +10,4 @@ else:
 	if namuji == 0:
 		print(f'{lists[namuji][1:4]}')
 	else:
-		print(f'{lists[namuji]}')
+		print(f'{lists[namuji]}');
