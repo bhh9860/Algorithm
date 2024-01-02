@@ -1,6 +1,11 @@
-while True:
-    m, f = list(map(int, input().split()))
-    if m == 0 and f == 0:
-        break;
+n, l = list(map(int, input().split()))
+h = list(map(int, input().split()))
+h.sort()
+
+for i in h:
+    if l >= i:
+        l += 1
     else:
-        print(m+f)
+        break
+
+print(l)
